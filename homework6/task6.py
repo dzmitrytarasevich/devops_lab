@@ -24,3 +24,4 @@ print(colored("6. Installed packages:", 'green') + '\n' + pip_freeze + '\n')
 # 7. Print site-packages location
 pack_location = next(p for p in sys.path if "site-packages" in p)
 print(colored("7. Site-packages location:", 'green') + pack_location + '\n')
+print("Finish!")
