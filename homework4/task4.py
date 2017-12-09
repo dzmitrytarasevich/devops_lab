@@ -4,40 +4,55 @@ import configparser
 import time
 
 
-class Mon(object):
-    def __init__(self, name):
-        self.name = name
-        self.cpu = Mon(psutil.cpu_percent())
-        self.vm = Mon(psutil.virtual_memory())
-        self.disk = Mon(psutil.disk_io_counters(perdisk=False))
-        self.net = Mon(psutil.net_io_counters(pernic=False))
-        self.memory = Mon(psutil.swap_memory())
-        self.time_format = Mon((datetime.strftime(datetime.now(), "%Y.%m.%d %H:%M:%S")))
-
-
-def get_set():
+def get_params():
     config = configparser.ConfigParser()
     config.read('settings.ini')
-
     interval_min = config['common']['interval']
     data_type = config['common']['output']
+    counter = config['common']['counter']
+    return [int(interval_min), str(data_type), int(counter)]
 
-    return [int(interval_min), str(data_type)]
+
+class Mon(object):
+    def __init__(self):
+        self.cpu = psutil.cpu_percent()
+        self.memory = psutil.virtual_memory()[3] / 1024
+        self.swap = psutil.swap_memory()[1] / 1024
+        self.disk_r = psutil.disk_io_counters(perdisk=False)[2] / 1024
+        self.disk_w = psutil.disk_io_counters(perdisk=False)[3] / 1024
+        self.net_sent = psutil.net_io_counters(pernic=False)[0] / 1024
+        self.net_recv = psutil.net_io_counters(pernic=False)[1] / 1024
+        self.time_format = (datetime.strftime(datetime.now(), "%Y.%m.%d %H:%M:%S"))
+        self.counter = counter
+
+    def text(self):
+        result = (
+               '| SNAPSHOT {0} - {1} \n'
+               '| CPU load: {2}% \n'
+               '| Memory usage: {3}kb \n'
+               '| Swap usage: {4}kb \n'
+               '| Disk read: {5}kb \n'
+               '| Disk write: {6}kb \n'
+               '| Net in: {7}kb \n'
+               '| Net out: {8}kb \n'
+               '----------------------------\n'.format(self.counter, self.time_format, self.cpu,
+                                                       self.memory, self.swap, self.disk_r,
+                                                       self.disk_w, self.net_sent, self.net_recv))
+
+        with open('snapshot.log', "a+") as log:
+            log.write(result)
+            log.close()
 
 
 if __name__ == '__main__':
-    interval = get_set()[0]
-    type_data = get_set()[1]
-    i = 0
+
+    interval = get_params()[0]
+    type_data = get_params()[1]
+    counter = get_params()[2]
+
+    counter = 0
     while True:
-        i += 1
-        time.sleep(interval)
-        with open('snapshot.log', "a+") as log:
-            log.write("| SNAPSHOT " + str(i) + ": " + str(time_format) + '\n')
-            log.write("| " + "CPU load: " + str(cpu) + "%" + '\n')
-            log.write("| " + "Memory usage: " + str(memory) + "%" + '\n')
-            log.write("| " + "VM usage: " + str(vm) + "%" + '\n')
-            log.write("| " + "I/O (read/write): " + str(disk) + '\n')
-            log.write("| " + "Net (bytes sent/recv): " + str(net))
-            log.write("\n---------------------------------------------\n")
-            log.close()
+        counter += 1
+        time.sleep(interval * 60)
+        writer = Mon()
+        writer.text()
