@@ -1,0 +1,175 @@
+| SNAPSHOT 1: 2017.12.06 13:44:28
+| CPU load: <__main__.mon object at 0x7fcb0dc13dd8>%
+| Memory usage: None%
+| VM usage: None%
+| I/O (read/write): None
+| Net (bytes sent/recv): None
+---------------------------------------------
+| SNAPSHOT 2: 2017.12.06 13:44:33
+| CPU load: <__main__.mon object at 0x7fcb0dc13dd8>%
+| Memory usage: None%
+| VM usage: None%
+| I/O (read/write): None
+| Net (bytes sent/recv): None
+---------------------------------------------
+| SNAPSHOT 3: 2017.12.06 13:44:38
+| CPU load: <__main__.mon object at 0x7fcb0dc13dd8>%
+| Memory usage: None%
+| VM usage: None%
+| I/O (read/write): None
+| Net (bytes sent/recv): None
+---------------------------------------------
+| SNAPSHOT 4: 2017.12.06 13:44:43
+| CPU load: <__main__.mon object at 0x7fcb0dc13dd8>%
+| Memory usage: None%
+| VM usage: None%
+| I/O (read/write): None
+| Net (bytes sent/recv): None
+---------------------------------------------
+| SNAPSHOT 5: 2017.12.06 13:44:48
+| CPU load: <__main__.mon object at 0x7fcb0dc13dd8>%
+| Memory usage: None%
+| VM usage: None%
+| I/O (read/write): None
+| Net (bytes sent/recv): None
+---------------------------------------------
+| SNAPSHOT 6: 2017.12.06 13:44:53
+| CPU load: <__main__.mon object at 0x7fcb0dc13dd8>%
+| Memory usage: None%
+| VM usage: None%
+| I/O (read/write): None
+| Net (bytes sent/recv): None
+---------------------------------------------
+| SNAPSHOT 7: 2017.12.06 13:44:58
+| CPU load: <__main__.mon object at 0x7fcb0dc13dd8>%
+| Memory usage: None%
+| VM usage: None%
+| I/O (read/write): None
+| Net (bytes sent/recv): None
+---------------------------------------------
+| SNAPSHOT 8: 2017.12.06 13:45:03
+| CPU load: <__main__.mon object at 0x7fcb0dc13dd8>%
+| Memory usage: None%
+| VM usage: None%
+| I/O (read/write): None
+| Net (bytes sent/recv): None
+---------------------------------------------
+| SNAPSHOT 9: 2017.12.06 13:45:08
+| CPU load: <__main__.mon object at 0x7fcb0dc13dd8>%
+| Memory usage: None%
+| VM usage: None%
+| I/O (read/write): None
+| Net (bytes sent/recv): None
+---------------------------------------------
+| SNAPSHOT 1: 2017.12.06 13:49:15
+| CPU load: <__main__.Mon object at 0x7fd9e7e8dd30>%
+| Memory usage: <__main__.Mon object at 0x7fd9e7e8dd68>%
+| VM usage: <__main__.Mon object at 0x7fd9e7e8dcf8>%
+| I/O (read/write): <__main__.Mon object at 0x7fd9e72f3898>
+| Net (bytes sent/recv): <__main__.Mon object at 0x7fd9e643aba8>
+---------------------------------------------
+| SNAPSHOT 2: 2017.12.06 13:49:20
+| CPU load: <__main__.Mon object at 0x7fd9e7e8dd30>%
+| Memory usage: <__main__.Mon object at 0x7fd9e7e8dd68>%
+| VM usage: <__main__.Mon object at 0x7fd9e7e8dcf8>%
+| I/O (read/write): <__main__.Mon object at 0x7fd9e72f3898>
+| Net (bytes sent/recv): <__main__.Mon object at 0x7fd9e643aba8>
+---------------------------------------------
+| SNAPSHOT 3: 2017.12.06 13:49:25
+| CPU load: <__main__.Mon object at 0x7fd9e7e8dd30>%
+| Memory usage: <__main__.Mon object at 0x7fd9e7e8dd68>%
+| VM usage: <__main__.Mon object at 0x7fd9e7e8dcf8>%
+| I/O (read/write): <__main__.Mon object at 0x7fd9e72f3898>
+| Net (bytes sent/recv): <__main__.Mon object at 0x7fd9e643aba8>
+---------------------------------------------
+| SNAPSHOT 4: 2017.12.06 13:49:30
+| CPU load: <__main__.Mon object at 0x7fd9e7e8dd30>%
+| Memory usage: <__main__.Mon object at 0x7fd9e7e8dd68>%
+| VM usage: <__main__.Mon object at 0x7fd9e7e8dcf8>%
+| I/O (read/write): <__main__.Mon object at 0x7fd9e72f3898>
+| Net (bytes sent/recv): <__main__.Mon object at 0x7fd9e643aba8>
+---------------------------------------------
+| SNAPSHOT 5: 2017.12.06 13:49:35
+| CPU load: <__main__.Mon object at 0x7fd9e7e8dd30>%
+| Memory usage: <__main__.Mon object at 0x7fd9e7e8dd68>%
+| VM usage: <__main__.Mon object at 0x7fd9e7e8dcf8>%
+| I/O (read/write): <__main__.Mon object at 0x7fd9e72f3898>
+| Net (bytes sent/recv): <__main__.Mon object at 0x7fd9e643aba8>
+---------------------------------------------
+| SNAPSHOT 6: 2017.12.06 13:49:40
+| CPU load: <__main__.Mon object at 0x7fd9e7e8dd30>%
+| Memory usage: <__main__.Mon object at 0x7fd9e7e8dd68>%
+| VM usage: <__main__.Mon object at 0x7fd9e7e8dcf8>%
+| I/O (read/write): <__main__.Mon object at 0x7fd9e72f3898>
+| Net (bytes sent/recv): <__main__.Mon object at 0x7fd9e643aba8>
+---------------------------------------------
+| SNAPSHOT 1: 2017.12.06 13:53:15
+| CPU load: <__main__.Mon object at 0x7f07df1d2cf8>%
+| Memory usage: <__main__.Mon object at 0x7f07df1d2cc0>%
+| VM usage: <__main__.Mon object at 0x7f07df1d2d30>%
+| I/O (read/write): <__main__.Mon object at 0x7f07de6388d0>
+| Net (bytes sent/recv): <__main__.Mon object at 0x7f07dceffe48>
+---------------------------------------------
+| SNAPSHOT 2: 2017.12.06 13:53:20
+| CPU load: <__main__.Mon object at 0x7f07df1d2cf8>%
+| Memory usage: <__main__.Mon object at 0x7f07df1d2cc0>%
+| VM usage: <__main__.Mon object at 0x7f07df1d2d30>%
+| I/O (read/write): <__main__.Mon object at 0x7f07de6388d0>
+| Net (bytes sent/recv): <__main__.Mon object at 0x7f07dceffe48>
+---------------------------------------------
+| SNAPSHOT 3: 2017.12.06 13:53:25
+| CPU load: <__main__.Mon object at 0x7f07df1d2cf8>%
+| Memory usage: <__main__.Mon object at 0x7f07df1d2cc0>%
+| VM usage: <__main__.Mon object at 0x7f07df1d2d30>%
+| I/O (read/write): <__main__.Mon object at 0x7f07de6388d0>
+| Net (bytes sent/recv): <__main__.Mon object at 0x7f07dceffe48>
+---------------------------------------------
+| SNAPSHOT 4: 2017.12.06 13:53:30
+| CPU load: <__main__.Mon object at 0x7f07df1d2cf8>%
+| Memory usage: <__main__.Mon object at 0x7f07df1d2cc0>%
+| VM usage: <__main__.Mon object at 0x7f07df1d2d30>%
+| I/O (read/write): <__main__.Mon object at 0x7f07de6388d0>
+| Net (bytes sent/recv): <__main__.Mon object at 0x7f07dceffe48>
+---------------------------------------------
+| SNAPSHOT 5: 2017.12.06 13:53:35
+| CPU load: <__main__.Mon object at 0x7f07df1d2cf8>%
+| Memory usage: <__main__.Mon object at 0x7f07df1d2cc0>%
+| VM usage: <__main__.Mon object at 0x7f07df1d2d30>%
+| I/O (read/write): <__main__.Mon object at 0x7f07de6388d0>
+| Net (bytes sent/recv): <__main__.Mon object at 0x7f07dceffe48>
+---------------------------------------------
+| SNAPSHOT 6: 2017.12.06 13:53:40
+| CPU load: <__main__.Mon object at 0x7f07df1d2cf8>%
+| Memory usage: <__main__.Mon object at 0x7f07df1d2cc0>%
+| VM usage: <__main__.Mon object at 0x7f07df1d2d30>%
+| I/O (read/write): <__main__.Mon object at 0x7f07de6388d0>
+| Net (bytes sent/recv): <__main__.Mon object at 0x7f07dceffe48>
+---------------------------------------------
+| SNAPSHOT 1: <__main__.Mon object at 0x7fd034d2fa90>
+| CPU load: <__main__.Mon object at 0x7fd036774898>%
+| Memory usage: <__main__.Mon object at 0x7fd0344a3160>%
+| VM usage: <__main__.Mon object at 0x7fd036774860>%
+| I/O (read/write): <__main__.Mon object at 0x7fd0367748d0>
+| Net (bytes sent/recv): <__main__.Mon object at 0x7fd035bca748>
+---------------------------------------------
+| SNAPSHOT 2: <__main__.Mon object at 0x7fd034d2fa90>
+| CPU load: <__main__.Mon object at 0x7fd036774898>%
+| Memory usage: <__main__.Mon object at 0x7fd0344a3160>%
+| VM usage: <__main__.Mon object at 0x7fd036774860>%
+| I/O (read/write): <__main__.Mon object at 0x7fd0367748d0>
+| Net (bytes sent/recv): <__main__.Mon object at 0x7fd035bca748>
+---------------------------------------------
+| SNAPSHOT 3: <__main__.Mon object at 0x7fd034d2fa90>
+| CPU load: <__main__.Mon object at 0x7fd036774898>%
+| Memory usage: <__main__.Mon object at 0x7fd0344a3160>%
+| VM usage: <__main__.Mon object at 0x7fd036774860>%
+| I/O (read/write): <__main__.Mon object at 0x7fd0367748d0>
+| Net (bytes sent/recv): <__main__.Mon object at 0x7fd035bca748>
+---------------------------------------------
+| SNAPSHOT 4: <__main__.Mon object at 0x7fd034d2fa90>
+| CPU load: <__main__.Mon object at 0x7fd036774898>%
+| Memory usage: <__main__.Mon object at 0x7fd0344a3160>%
+| VM usage: <__main__.Mon object at 0x7fd036774860>%
+| I/O (read/write): <__main__.Mon object at 0x7fd0367748d0>
+| Net (bytes sent/recv): <__main__.Mon object at 0x7fd035bca748>
+---------------------------------------------
